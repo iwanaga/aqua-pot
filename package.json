@@ -1,0 +1,31 @@
+{
+  "name": "aqua-pot",
+  "version": "1.0.0",
+  "description": "moisture watcher and notifier with Arduino",
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "johnny-five": "0.7.31",
+    "mailgun-js": "0.4.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/testState.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iwanaga/aqua-pot.git"
+  },
+  "keywords": [
+    "arduino",
+    "johnny-five",
+    "moisture sensor",
+    "mail"
+  ],
+  "author": "iwanaga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwanaga/aqua-pot/issues"
+  },
+  "homepage": "https://github.com/iwanaga/aqua-pot"
+}
